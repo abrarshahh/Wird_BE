@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite3
+data/*.db
+data/*.sqlite3
+
+# Downloaded raw Quran files (can be re-downloaded via script)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# MD Files
+
+md_files
+md_files/*
+
